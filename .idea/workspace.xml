@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b7b1bed-21f1-41eb-b6b0-bfee8201d582" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/LunisolarToolsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/TaoistManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawls/DataLunisolarTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawls/DataLunisolarTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crawls/LunisolarTools.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawls/LunisolarTools.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ArmorLunisolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ArmorLunisolar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage/FileWriteRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/FileWriteRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage/IOUploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IOUploadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/IntelliJ/CaseStudy.Module2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IntelliJ/CaseStudy.Module2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LunisolarToolsManager">
     <configuration name="DataLunisolarTools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crawls.DataLunisolarTools" />
@@ -111,7 +102,8 @@
       <updated>1662476248907</updated>
       <workItem from="1662476250338" duration="2492000" />
       <workItem from="1662511747889" duration="5733000" />
-      <workItem from="1662525748759" duration="16955000" />
+      <workItem from="1662525748759" duration="17023000" />
+      <workItem from="1662566662625" duration="4000" />
     </task>
     <servers />
   </component>
