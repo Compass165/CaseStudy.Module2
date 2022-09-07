@@ -1,5 +1,6 @@
 package crawls;
 
+import model.LunisolarTools;
 import storage.FileWriteRead;
 
 import java.io.IOException;
@@ -14,7 +15,25 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class DataLunisolarTools {
-    public static void main(String[] args) {
+
+    private static DataLunisolarTools instance;
+
+    private List<LunisolarTools> lunisolarToolsData = new ArrayList<>();
+
+    private DataLunisolarTools() {
+    }
+    public static DataLunisolarTools getInstance() {
+        if (instance == null) {
+            return instance = new DataLunisolarTools();
+        } else return instance;
+    }
+
+    public List<LunisolarTools> getLunisolarToolsData() {
+        crawlTools();
+        return lunisolarToolsData;
+    }
+
+    public static void crawlTools() {
         try {
             URL url = new URL("http://vlcm.zing.vn/su-kien/tran-hung-xung-vuong/tran-hung-xung-vuong.html");
             List<String> list= new ArrayList<>();
@@ -22,12 +41,14 @@ public class DataLunisolarTools {
             Scanner scanner = new Scanner(new InputStreamReader(url.openStream()));
             scanner.useDelimiter("\\Z");
             String content = scanner.next();
+            scanner.close();
             // remove all new line
             content = content.replaceAll("\\n+", "");
+            content = content.replaceAll("\\R","");
+            content = content.replaceAll("</strong><strong>","");
+
             // regex
-            Pattern p = Pattern.compile("EvenRow\">(.*?)</strong>");
-//            Pattern p = Pattern.compile("name-movie\">(.*?)</div>");
-//            <div class="name-movie"> Tử Xuyên </div>
+            Pattern p = Pattern.compile("<td class=\"EvenRow\" style=\"text-align: center;\"><strong>(.*?)</strong></td>");
             Matcher m = p.matcher(content);
             while (m.find()) {
                 System.out.println(m.group(1));
@@ -44,5 +65,8 @@ public class DataLunisolarTools {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public static void main(String[] args) {
+        crawlTools();
     }
 }
