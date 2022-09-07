@@ -46,7 +46,6 @@ public class DataLunisolarTools {
             content = content.replaceAll("\\n+", "");
             content = content.replaceAll("\\R","");
             content = content.replaceAll("</strong><strong>","");
-
             // regex
             Pattern p = Pattern.compile("<td class=\"EvenRow\" style=\"text-align: center;\"><strong>(.*?)</strong></td>");
             Matcher m = p.matcher(content);
@@ -54,7 +53,7 @@ public class DataLunisolarTools {
                 System.out.println(m.group(1));
                 list.add(m.group(1));
             }
-            new FileWriteRead().writeFile(list,"E:\\IntelliJ\\CaseStudy.Module2\\src\\crawls\\LunisolarTools.dat");
+            FileWriteRead.getInstance(list,"E:\\IntelliJ\\CaseStudy.Module2\\src\\crawls\\LunisolarTools.dat");
 // close scanner
             scanner.close();
 

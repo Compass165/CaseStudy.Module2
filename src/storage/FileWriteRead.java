@@ -4,7 +4,19 @@ import java.io.*;
 import java.util.List;
 
 public class FileWriteRead implements IOUploadFile {
+    //Đã xài được Singleton
+    private static FileWriteRead instance=null;
 
+    private FileWriteRead() {
+    }
+
+    private FileWriteRead(List list, String pathFile) {
+    }
+
+    public static FileWriteRead getInstance(List list, String pathFile){
+        if (instance == null) instance = new FileWriteRead(list, pathFile);
+        return instance;
+    }
     @Override
     public void writeFile(List list, String pathFile) {
         try {
