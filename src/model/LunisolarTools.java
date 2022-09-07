@@ -2,14 +2,14 @@ package model;
 
 import java.io.Serializable;
 
-public abstract class LunisolarTools implements Serializable {
+public abstract class LunisolarTools implements Serializable { //Đạo cụ âm dương
 
-    private String toolsID;
-    private String name;
-    private String classes;
-    private int price;
-    private int soulPower;
-    private String note;
+    private String toolsID; //ID
+    private String name; //Tên
+    private String classes; //Loại
+    private int price; //Giá
+    private int soulPower; //Sức mạnh linh hồn
+    private String note; //Mô tả
 
     public LunisolarTools() {
     }
@@ -75,13 +75,13 @@ public abstract class LunisolarTools implements Serializable {
 
     @Override
     public String toString() {
-        return "LunisolarTools{" +
-                "toolsID='" + toolsID + '\'' +
-                ", name='" + name + '\'' +
-                ", classes='" + classes + '\'' +
-                ", price=" + price +
-                ", soulPower=" + soulPower +
-                ", note='" + note + '\'' +
-                '}';
+        return "Đạo cụ Âm dương: " +
+                "ID='" + toolsID + '\'' +
+                ", Tên đạo cụ='" + name + '\'' +
+                ", Lớp='" + classes + '\'' +
+                ", Giá=" + price +
+                ", Sức mạnh linh hồnr=" + soulPower +
+                ", Mô tả='" + note + '\'' +
+                " Và thuộc tính đặc biệt được cộng thêm của lớp ";
     }
 }
