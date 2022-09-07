@@ -1,20 +1,28 @@
 package storage;
 
+import model.IOUploadFile;
+
 import java.io.*;
 import java.util.List;
 
 public class FileWriteRead implements IOUploadFile {
     //Đã xài được Singleton
+//    private List list;
+//    private String pathFile;
     private static FileWriteRead instance=null;
 
     private FileWriteRead() {
     }
 
-    private FileWriteRead(List list, String pathFile) {
-    }
+//    private FileWriteRead(List list, String pathFile) {
+//        this.list = list;
+//        this.pathFile = pathFile;
+//    }
 
-    public static FileWriteRead getInstance(List list, String pathFile){
-        if (instance == null) instance = new FileWriteRead(list, pathFile);
+//    public static FileWriteRead getInstance(List list, String pathFile){
+    public static FileWriteRead getInstance(){
+//        if (instance == null) instance = new FileWriteRead(list, pathFile);
+        if (instance == null) instance = new FileWriteRead();
         return instance;
     }
     @Override

@@ -1,6 +1,5 @@
 package crawls;
 
-import model.LunisolarTools;
 import storage.FileWriteRead;
 
 import java.io.IOException;
@@ -16,24 +15,8 @@ import java.util.regex.Pattern;
 
 public class DataLunisolarTools {
 
-    private static DataLunisolarTools instance;
 
-    private List<LunisolarTools> lunisolarToolsData = new ArrayList<>();
-
-    private DataLunisolarTools() {
-    }
-    public static DataLunisolarTools getInstance() {
-        if (instance == null) {
-            return instance = new DataLunisolarTools();
-        } else return instance;
-    }
-
-    public List<LunisolarTools> getLunisolarToolsData() {
-        crawlTools();
-        return lunisolarToolsData;
-    }
-
-    public static void crawlTools() {
+    public static void main(String[] args) {
         try {
             URL url = new URL("http://vlcm.zing.vn/su-kien/tran-hung-xung-vuong/tran-hung-xung-vuong.html");
             List<String> list= new ArrayList<>();
@@ -53,7 +36,7 @@ public class DataLunisolarTools {
                 System.out.println(m.group(1));
                 list.add(m.group(1));
             }
-            FileWriteRead.getInstance(list,"E:\\IntelliJ\\CaseStudy.Module2\\src\\crawls\\LunisolarTools.dat");
+            FileWriteRead.getInstance().writeFile(list,"E:\\IntelliJ\\CaseStudy.Module2\\src\\crawls\\LunisolarTools.dat");
 // close scanner
             scanner.close();
 
@@ -64,8 +47,5 @@ public class DataLunisolarTools {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-    public static void main(String[] args) {
-        crawlTools();
     }
 }

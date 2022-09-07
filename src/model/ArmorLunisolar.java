@@ -57,4 +57,7 @@ public class ArmorLunisolar extends LunisolarTools{ //giáp
                 ", Kháng phép=" + magicalResistance +
                 '}';
     }
+//    "http://vlcm.zing.vn/su-kien/tran-hung-xung-vuong/tran-hung-xung-vuong.html"
+//    <td class="EvenRow" style="text-align: center;"><strong>(.*?)</strong></td>
+//    E:\IntelliJ\CaseStudy.Module2\src\crawls\LunisolarTools.dat
 }

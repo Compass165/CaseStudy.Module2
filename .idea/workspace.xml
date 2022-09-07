@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b7b1bed-21f1-41eb-b6b0-bfee8201d582" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LunisolarToolsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/TaoistManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crawls/DataLunisolarTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawls/DataLunisolarTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/crawls/LunisolarTools.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/crawls/LunisolarTools.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ArmorLunisolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ArmorLunisolar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/CRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/storage/FileWriteRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/FileWriteRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storage/IOUploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IOUploadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +62,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DataLunisolarTools">
+  <component name="RunManager" selected="Application.LunisolarToolsManager">
     <configuration name="DataLunisolarTools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crawls.DataLunisolarTools" />
       <module name="CaseStudy.Module2" />
@@ -70,12 +76,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LunisolarToolsManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.LunisolarToolsManager" />
+      <module name="CaseStudy.Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jsoup-1.15.3.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/library/jsoup-1.15.3.jar" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LunisolarToolsManager" />
         <item itemvalue="Application.DataLunisolarTools" />
         <item itemvalue="JAR Application.jsoup-1.15.3.jar" />
       </list>
@@ -91,7 +111,7 @@
       <updated>1662476248907</updated>
       <workItem from="1662476250338" duration="2492000" />
       <workItem from="1662511747889" duration="5733000" />
-      <workItem from="1662525748759" duration="13134000" />
+      <workItem from="1662525748759" duration="16955000" />
     </task>
     <servers />
   </component>
@@ -108,5 +128,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/LunisolarToolsManager.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
