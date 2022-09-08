@@ -4,7 +4,7 @@ import storage.FileWriteRead;
 
 import java.util.List;
 
-public class CRUD implements model.CRUD {
+public class CRUD implements controller.System.CRUD {
     FileWriteRead fileWriteRead = FileWriteRead.getInstance();
     @Override
     public void add(List arr, Object element, String pathFile) {

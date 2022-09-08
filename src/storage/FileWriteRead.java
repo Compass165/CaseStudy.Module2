@@ -1,6 +1,6 @@
 package storage;
 
-import model.IOUploadFile;
+import controller.System.IOUploadFile;
 
 import java.io.*;
 import java.util.List;

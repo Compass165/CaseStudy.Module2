@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b7b1bed-21f1-41eb-b6b0-bfee8201d582" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/system/RunByMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/system/RunByTaoist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LunisolarToolsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LunisolarToolsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/TaoistManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/TaoistManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/DisplayML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/DisplayML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/add/ChoiceAddLunisolarTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/add/ChoiceAddLunisolarTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/add/IsAccountAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/add/IsAccountAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/edit/IsAccountEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/edit/IsAccountEdit.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b7b1bed-21f1-41eb-b6b0-bfee8201d582" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +104,7 @@
       <workItem from="1662525748759" duration="17023000" />
       <workItem from="1662566662625" duration="4000" />
       <workItem from="1662566866563" duration="4821000" />
-      <workItem from="1662600221017" duration="22457000" />
+      <workItem from="1662600221017" duration="23174000" />
     </task>
     <servers />
   </component>

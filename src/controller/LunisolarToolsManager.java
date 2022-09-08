@@ -1,6 +1,6 @@
 package controller;
 
-import model.Imanager;
+import controller.System.Imanager;
 import model.LunisolarTools;
 
 import java.util.List;

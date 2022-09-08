@@ -1,6 +1,6 @@
 package controller;
 
-import model.Imanager;
+import controller.System.Imanager;
 import model.Taoist;
 
 import java.util.List;
