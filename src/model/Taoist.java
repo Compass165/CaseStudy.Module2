@@ -8,7 +8,7 @@ public class Taoist implements Serializable {
     private String passWord; //Password
     private String name; //Tên
     private String sect; //Môn phái
-    private boolean role = false; //Kiểm tra xem có phải
+    private boolean role = false; //Kiểm tra xem có phải Tông chủ không?
 
     public Taoist() {
     }
