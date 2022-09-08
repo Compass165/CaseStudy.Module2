@@ -1,14 +1,14 @@
 package model;
 
-public class EdemaLunisolar extends LunisolarTools{ //Phù triền
+public class LunisolarEdema extends LunisolarTools{ //Phù triền
 
     private int abilityPower; //Sức mạnh phép thuật
-    private String HP; //Máu
+    private int HP; //Máu
 
-    public EdemaLunisolar(){
+    public LunisolarEdema(){
     }
 
-    public EdemaLunisolar(String toolsID, String name, String classes, int price, int soulPower, String note) {
+    public LunisolarEdema(String toolsID, String name, String classes, int price, int soulPower, String note) {
         super(toolsID, name, classes, price, soulPower, note);
     }
 
@@ -27,7 +27,7 @@ public class EdemaLunisolar extends LunisolarTools{ //Phù triền
         }
     }
 
-    public EdemaLunisolar(String toolsID, String name, String classes, int price, int soulPower, String note, int abilityPower, String HP) {
+    public LunisolarEdema(String toolsID, String name, String classes, int price, int soulPower, String note, int abilityPower, int HP) {
         super(toolsID, name, classes, price, soulPower, note);
         this.abilityPower = abilityPower;
         this.HP = HP;
@@ -41,11 +41,11 @@ public class EdemaLunisolar extends LunisolarTools{ //Phù triền
         this.abilityPower = abilityPower;
     }
 
-    public String getHP() {
+    public int getHP() {
         return HP;
     }
 
-    public void setHP(String HP) {
+    public void setHP(int HP) {
         this.HP = HP;
     }
 

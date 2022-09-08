@@ -7,17 +7,16 @@ public class Taoist implements Serializable {
     private String taoistID; //ID đạo sĩ
     private String passWord; //Password
     private String name; //Tên
-    private String sect; //Môn phái
+
     private boolean role = false; //Kiểm tra xem có phải Tông chủ không?
 
     public Taoist() {
     }
 
-    public Taoist(String taoistID, String passWord, String name,String sect, boolean role) {
+    public Taoist(String taoistID, String passWord, String name, boolean role) {
         this.taoistID = taoistID;
         this.passWord = passWord;
         this.name = name;
-        this.sect = sect;
         this.role = role;
     }
 
@@ -45,13 +44,6 @@ public class Taoist implements Serializable {
         this.name = name;
     }
 
-    public String getSect() {
-        return sect;
-    }
-
-    public void setSect(String sect) {
-        this.sect = sect;
-    }
 
     public boolean isRole() {
         return role;
@@ -67,7 +59,6 @@ public class Taoist implements Serializable {
                 "ID'" + taoistID + '\'' +
                 ", Mật khẩu'" + passWord + '\'' +
                 ", Pháp danh'" + name + '\'' +
-                ", Môn phái" + sect +
                 ", Chức danh" + role +
                 '}';
     }

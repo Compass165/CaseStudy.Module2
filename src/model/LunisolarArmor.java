@@ -1,14 +1,14 @@
 package model;
 
-public class ArmorLunisolar extends LunisolarTools{ //giáp
+public class LunisolarArmor extends LunisolarTools{ //giáp
 
     private int HP; //Máu
     private int magicalResistance; //Kháng phép
 
-    public ArmorLunisolar () {
+    public LunisolarArmor() {
     }
 
-    public ArmorLunisolar(String toolsID, String name, String classes, int price, int soulPower, String note) {
+    public LunisolarArmor(String toolsID, String name, String classes, int price, int soulPower, String note) {
         super(toolsID, name, classes, price, soulPower, note);
     }
 
@@ -27,7 +27,7 @@ public class ArmorLunisolar extends LunisolarTools{ //giáp
         }
     }
 
-    public ArmorLunisolar(String toolsID, String name, String classes, int price, int soulPower, String note, int HP, int magicalResistance) {
+    public LunisolarArmor(String toolsID, String name, String classes, int price, int soulPower, String note, int HP, int magicalResistanceKh) {
         super(toolsID, name, classes, price, soulPower, note);
         this.HP = HP;
         this.magicalResistance = magicalResistance;
@@ -52,7 +52,7 @@ public class ArmorLunisolar extends LunisolarTools{ //giáp
     @Override
     public String toString() {
         return super.toString() +
-                "Giáp âm dương: " +
+                "Giáp Linh hồn: " +
                 "Máu=" + HP +
                 ", Kháng phép=" + magicalResistance +
                 '}';
