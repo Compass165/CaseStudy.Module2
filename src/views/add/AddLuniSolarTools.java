@@ -36,7 +36,7 @@ public class AddLuniSolarTools {
 
         LunisolarTools lunisolarTools = new LunisolarSword(toolsID, name, classes, price, soulPower, note, dame, speed);
         new CRUD().add(lunisolarToolsList, lunisolarTools, pathFile);
-        System.out.println("Thêm đạo cụ thành công");
+        System.out.println("Thêm đạo cụ lớp Âm dương Kiếm thành công");
     }
 
     public static void choiceEdema(List lunisolarToolsList, String pathFile) {
@@ -60,7 +60,7 @@ public class AddLuniSolarTools {
 
         LunisolarTools lunisolarTools = new LunisolarEdema(toolsID, name, classes, price, soulPower, note, abilityPower, HP);
         new CRUD().add(lunisolarToolsList, lunisolarTools, pathFile);
-        System.out.println("Thêm đạo cụ thành công");
+        System.out.println("Thêm đạo cụ lớp Âm dương Phù triền thành công");
     }
 
     public static void choiceArmor(List lunisolarToolsList, String pathFile) {
@@ -84,6 +84,6 @@ public class AddLuniSolarTools {
 
         LunisolarTools lunisolarTools = new LunisolarArmor(toolsID, name, classes, price, soulPower, note, HP, magicalResistance);
         new CRUD().add(lunisolarToolsList, lunisolarTools, pathFile);
-        System.out.println("Thêm đạo cụ thành công");
+        System.out.println("Thêm đạo cụ lớp Linh hồn Giáp thành công");
     }
 }
