@@ -1,4 +1,4 @@
-package views;
+package views.system;
 
 import model.Taoist;
 

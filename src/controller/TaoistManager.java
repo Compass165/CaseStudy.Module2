@@ -1,12 +1,13 @@
 package controller;
 
+import model.Imanager;
 import model.Taoist;
 
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TaoistManager implements model.Imanager {
+public class TaoistManager implements Imanager {
 
     @Override
     public int checkIndex(List arr, String taoistID) {
@@ -20,7 +21,7 @@ public class TaoistManager implements model.Imanager {
     }
 
     @Override
-    public Object search(List arr, String name) {
+    public Taoist search(List arr, String name) {
         List<Taoist> taoistList = arr;
         int index = 0;
         for (int i = 0; i < arr.size(); i++) {

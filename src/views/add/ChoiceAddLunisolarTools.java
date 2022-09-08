@@ -1,6 +1,6 @@
 package views.add;
 
-import views.DisplayML;
+import views.system.DisplayML;
 
 import java.util.List;
 import java.util.Scanner;

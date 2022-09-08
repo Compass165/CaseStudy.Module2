@@ -1,12 +1,13 @@
 package controller;
 
+import model.Imanager;
 import model.LunisolarTools;
 
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class LunisolarToolsManager implements model.Imanager{
+public class LunisolarToolsManager implements Imanager {
 //public static List<LunisolarTools> list1 = new ArrayList<>(); //debug
 
     @Override
@@ -31,7 +32,7 @@ public class LunisolarToolsManager implements model.Imanager{
 //    }
 
     @Override
-    public Object search(List arr, String name) {
+    public LunisolarTools search(List arr, String name) {
         List<LunisolarTools> lunisolarToolsList = arr;
         int index = 0;
         for (int i = 0; i < arr.size(); i++) {
