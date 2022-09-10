@@ -8,23 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/lunisolarTools.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/lunisolarTools.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/taoist.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/taoist.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/LunisolarArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LunisolarArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/LunisolarEdema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LunisolarEdema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/LunisolarSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LunisolarSword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/LunisolarTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LunisolarTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Taoist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Taoist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/storage/FileWriteRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/FileWriteRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/add/ChoiceAddLunisolarTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/add/ChoiceAddLunisolarTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/add/IsAccountAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/add/IsAccountAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/edit/EditTaoist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/edit/EditTaoist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/edit/IsAccountEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/edit/IsAccountEdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/CheckAccountForRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/CheckAccountForRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/CheckGetRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/CheckGetRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/remove/RemoveTaoist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/remove/RemoveTaoist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/system/DisplayML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/DisplayML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/system/RunByMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/RunByMaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/system/RunByTaoist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/RunByTaoist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +57,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Login">
+  <component name="RunManager" selected="Application.FileWriteRead">
     <configuration name="CheckAccountForRole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="views.login.CheckAccountForRole" />
       <module name="CaseStudy.Module2" />
@@ -141,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
         <item itemvalue="Application.FileWriteRead" />
+        <item itemvalue="Application.Login" />
         <item itemvalue="Application.CheckAccountForRole" />
         <item itemvalue="Application.DataLunisolarTools" />
         <item itemvalue="Application.LunisolarToolsManager" />
@@ -164,7 +148,7 @@
       <workItem from="1662566866563" duration="4821000" />
       <workItem from="1662600221017" duration="23174000" />
       <workItem from="1662626022685" duration="127000" />
-      <workItem from="1662801941604" duration="13931000" />
+      <workItem from="1662801941604" duration="15091000" />
     </task>
     <servers />
   </component>
@@ -196,13 +180,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/storage/FileWriteRead.java</url>
-          <line>82</line>
+          <line>91</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/views/system/RunByTaoist.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/views/system/RunByMaster.java</url>
