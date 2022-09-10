@@ -39,10 +39,10 @@ public class RunByMaster {
         while (true) {
             int choice = scanner.nextInt();
             switch (choice) {
-                case 1: //add
+                case 1: //Quản lý đạo cụ
                     menuToolsMaster();
                     break;
-                case 2: //edit
+                case 2: //Quản lý đạo sĩ
                     menuTaoistManager();
                     break;
                 case CHOICEEXIT:

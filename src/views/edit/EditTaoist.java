@@ -16,7 +16,7 @@ public class EditTaoist {
     public void editTaoist() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("┎───────────────────[SỬA ÂM DƯƠNG ĐẠO SĨ]─────────────────┒");
-        System.out.println("[\uD83D\uDD11] Mời Tông chủ nhập mã Đạo sĩ cần sửa:");
+        System.out.println("[\uD83D\uDD11] Mời Tông chủ nhập Index Đạo sĩ cần sửa:");
         System.out.println("-----------------------------------------------------");
         String taoistID = scanner.nextLine();
         int indexRemove = new TaoistManager().checkIndex(listTaoist, taoistID);

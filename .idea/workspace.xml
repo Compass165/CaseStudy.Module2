@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5b7b1bed-21f1-41eb-b6b0-bfee8201d582" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/lunisolarTools.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/lunisolarTools.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/taoist.dat" beforeDir="false" afterPath="$PROJECT_DIR$/database/taoist.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage/FileWriteRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage/FileWriteRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/edit/EditTaoist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/edit/EditTaoist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login/CheckAccountForRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login/CheckAccountForRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/DisplayML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/DisplayML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/RunByMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/RunByMaster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FileWriteRead">
+  <component name="RunManager" selected="Application.Login">
     <configuration name="CheckAccountForRole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="views.login.CheckAccountForRole" />
       <module name="CaseStudy.Module2" />
@@ -125,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileWriteRead" />
         <item itemvalue="Application.Login" />
+        <item itemvalue="Application.FileWriteRead" />
         <item itemvalue="Application.CheckAccountForRole" />
         <item itemvalue="Application.DataLunisolarTools" />
         <item itemvalue="Application.LunisolarToolsManager" />
@@ -148,7 +150,7 @@
       <workItem from="1662566866563" duration="4821000" />
       <workItem from="1662600221017" duration="23174000" />
       <workItem from="1662626022685" duration="127000" />
-      <workItem from="1662801941604" duration="15091000" />
+      <workItem from="1662801941604" duration="16227000" />
     </task>
     <servers />
   </component>

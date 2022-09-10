@@ -11,12 +11,12 @@ public class DisplayML {
             System.out.println("╔============================================================╗");
             System.out.println("║           ▂ ▃ ▅ ▆ █  QUẢN LÝ MÔN PHÁI  █ ▆ ▅ ▃ ▂           ║");
             System.out.println("╠============================================================╣");
-            System.out.println("║>[1]. Thêm Âm dương Đạo sĩ                                  ║");
-            System.out.println("║>[2]. Sửa Âm dương Đạo sĩ                                   ║");
-            System.out.println("║>[3]. Xóa Âm dương Đạo sĩ                                   ║");
-            System.out.println("║>[4]. Danh sách Âm dương Đạo sĩ                             ║");
+            System.out.println("║>[1]. Thêm Âm dương Đạo cụ                                  ║");
+            System.out.println("║>[2]. Sửa Âm dương Đạo cụ                                   ║");
+            System.out.println("║>[3]. Xóa Âm dương Đạo cụ                                   ║");
+            System.out.println("║>[4]. Danh sách Âm dương Đạo cụ                             ║");
             System.out.println("║>[5]. Kết hợp giữa Âm dương Đạo sĩ và Đạo cụ                ║");
-            System.out.println("║>[6]. Tìm kiếm Âm dương Đạo sĩ  theo Pháp danh              ║");
+            System.out.println("║>[6]. Tìm kiếm Âm dương Đạo cụ theo Pháp khí                ║");
             System.out.println("║>[7]. Quản lý Âm dương Đạo sĩ                               ║");
             System.out.println("║>[0]. Đăng xuất                                             ║");
             System.out.println("╚============================================================╝");
@@ -91,7 +91,7 @@ public class DisplayML {
         System.out.println("║>[2]. Sửa Âm dương Đạo sĩ                                   ║");
         System.out.println("║>[3]. Xóa Âm dương Đạo sĩ                                   ║");
         System.out.println("║>[4]. Danh Sách Âm dương Đạo sĩ                             ║");
-        System.out.println("║>[5]. Quản lý Âm dương Đạo sĩ                               ║");
+        System.out.println("║>[5]. Quản lý Âm dương Đạo cụ                               ║");
         System.out.println("║>[6]. Tìm kiếm Âm dương Đạo sĩ theo Pháp danh               ║");
         System.out.println("║>[0]. Đăng xuất                                             ║");
         System.out.println("╚============================================================╝");

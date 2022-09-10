@@ -31,8 +31,5 @@ public class CheckAccountForRole {
         }
     }
 
-    public static void main(String[] args) {
-        RunByMaster.choiceTaoistOrTools();
-    }
 
 }
