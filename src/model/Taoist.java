@@ -59,7 +59,6 @@ public class Taoist implements Serializable {
                 "ID'" + taoistID + '\'' +
                 ", Mật khẩu'" + passWord + '\'' +
                 ", Pháp danh'" + name + '\'' +
-                ", Chức danh" + role +
-                '}';
+                ", Chức danh " + role ;
     }
 }
