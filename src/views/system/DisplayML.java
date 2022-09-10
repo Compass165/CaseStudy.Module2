@@ -40,7 +40,7 @@ public class DisplayML {
     }
     public static void listLunisolarTools (List lunisolarToolsList) {
         for (int i = 0; i < lunisolarToolsList.size(); i++) {
-            System.out.print(" Index: " + i + " " + lunisolarToolsList.get(i).toString());
+            System.out.print(" Index: " + i + " " + lunisolarToolsList.get(i).toString() + ". " + '\n');
         }
     }
 
@@ -49,7 +49,7 @@ public class DisplayML {
         for (int i = 0; i < taoistList.size(); i++) {
             role = (taoistList.get(i).isRole() == true) ? "Tông chủ" : "Đạo sĩ";
             System.out.print(" Index: " + i + ", ID Đạo sĩ:  " + taoistList.get(i).getTaoistID()
-            + ", Pháp danh:  " + taoistList.get(i).getName()+" , password:   " + taoistList.get(i).getPassWord() + ", role:   " + role + ". ");
+            + ", Pháp danh:  " + taoistList.get(i).getName()+" , password:   " + taoistList.get(i).getPassWord() + ", role:   " + role + ". " + '\n'); //Xóa nếu ko muốn hiển thị khi đăng nhập
         }
     }
     public static void menuAdd() {

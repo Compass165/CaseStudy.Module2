@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class RemoveTaoist {
 
-    static final String pathFile = "E:\\IntelliJ\\CaseStudy.Module2\\Database\\taoist.dat";
+    static final String pathFile = "E:\\IntelliJ\\CaseStudy.Module2\\database\\taoist.dat";
     List<Taoist> listTaoist = FileWriteRead.getInstance().readFile(pathFile);
 
     public void  removeTaoist() {

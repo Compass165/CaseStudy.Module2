@@ -55,6 +55,7 @@ public class LunisolarSword extends LunisolarTools { // Âm dương kiếm
                 "Kiếm sẽ được cộng thêm: " +
                 "Công vật lý=" + dame +
                 ", Tốc độ di chuyển=" + speed +
-                '}';
+                " Mô tả " + classification() +
+                '\'';
     }
 }

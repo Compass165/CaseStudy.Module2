@@ -80,8 +80,7 @@ public abstract class LunisolarTools implements Serializable { //Đạo cụ âm
                 ", Tên đạo cụ='" + name + '\'' +
                 ", Lớp='" + classes + '\'' +
                 ", Giá=" + price +
-                ", Sức mạnh linh hồnr=" + soulPower +
-                ", Mô tả='" + note + '\'' +
+                ", Sức mạnh linh hồn=" + soulPower +
                 " Và thuộc tính đặc biệt được cộng thêm của lớp ";
     }
 }

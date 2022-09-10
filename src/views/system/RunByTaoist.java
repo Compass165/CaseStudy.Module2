@@ -29,7 +29,7 @@ public class RunByTaoist {
     static Scanner scanner = new Scanner(System.in);
     static Scanner scanner1 = new Scanner(System.in);
 
-    static final String pathFile = "E:\\IntelliJ\\CaseStudy.Module2\\Database\\lunisolarTools.dat";
+    static final String pathFile = "E:\\IntelliJ\\CaseStudy.Module2\\database\\lunisolarTools.dat";
     static FileWriteRead fileWriteRead = FileWriteRead.getInstance();
     static List<LunisolarTools> lunisolarToolsList = (List<LunisolarTools>) fileWriteRead.readFile(pathFile);
     public static void menuTaoist() {
@@ -62,10 +62,11 @@ public class RunByTaoist {
                     System.out.println("Đạo sĩ cần tìm là : " + elementTaoist.toString());
 
                     System.out.println("Mời nhập Đạo cụ cần tương tác: ");
+                    String nameTool = scanner1.nextLine();
                     LunisolarTools elementTools = new LunisolarToolsManager().search(fileWriteRead.readFile(pathFileLunisolarTools), name);
                     System.out.println("Đạo cụ cần tìm là: " + elementTools.toString());
 
-                    System.out.println(" Đạo sĩ: " + elementTaoist.getName() + " Được tăng các thuộc tính là: " + elementTools.toString());
+                    System.out.println(" Đạo sĩ: " + name + " Được tăng Sức mạnh linh hồn khi kết hợp với " + nameTool + " là: " + elementTools.getSoulPower());
                     System.out.println("Mời nhập lựa chọn");
                     break;
                 case CHOICESEARCH:

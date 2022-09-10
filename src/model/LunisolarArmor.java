@@ -55,7 +55,8 @@ public class LunisolarArmor extends LunisolarTools{ //giáp
                 "Giáp Linh hồn: " +
                 "Máu=" + HP +
                 ", Kháng phép=" + magicalResistance +
-                '}';
+                " Mô tả " + classification() +
+                '\'';
     }
 //    "http://vlcm.zing.vn/su-kien/tran-hung-xung-vuong/tran-hung-xung-vuong.html"
 //    <td class="EvenRow" style="text-align: center;"><strong>(.*?)</strong></td>

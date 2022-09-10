@@ -53,10 +53,11 @@ public class LunisolarEdema extends LunisolarTools{ //Phù triền
 
     @Override
     public String toString() {
-        return toString()+
+        return super.toString()+
                 "Phù triền sẽ được cộng thêm: " +
                 "Sức mạnh phép thuật=" + abilityPower +
                 ", Máu=" + HP +
-                '}';
+                " Mô tả " + classification() +
+                '\'';
     }
 }

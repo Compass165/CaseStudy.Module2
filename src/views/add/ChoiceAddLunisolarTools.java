@@ -26,10 +26,12 @@ public class ChoiceAddLunisolarTools {
             } else if (choice == LunisolarArmor) {
                 AddLuniSolarTools.choiceArmor(lunisolarToolsList, pathFile);
                 break;
+            } else if (choice == EXIT) {
+                break;
             }else
                 System.err.println("[❌] Lựa chọn không tồn tại, mời các hạ nhập lại !!!");
 
-        }
+            }
 
     }
 

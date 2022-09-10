@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class EditTaoist {
 
-    static final String pathFile = "E:\\IntelliJ\\CaseStudy.Module2\\Database\\taoist.dat";
+    static final String pathFile = "E:\\IntelliJ\\CaseStudy.Module2\\database\\taoist.dat";
 
     List<Taoist> listTaoist = FileWriteRead.getInstance().readFile(pathFile);
 

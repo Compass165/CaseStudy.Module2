@@ -21,15 +21,15 @@ public class RunByMaster {
     static final int CHOICEEDIT = 2;
     static final int CHOICEREMOVE = 3;
     static final int CHOICESHOW = 4;
-    static final int CHOICETAOIST =5;
+    static final int CHOICELUNISOLAR = 5;
     static final int CHOICEEXIT = 0;
     static final int CHOICEUSER = 7;
 
     static Scanner scanner = new Scanner(System.in);
     static Scanner scanner1 = new Scanner(System.in);
 
-    static final String pathFileLunisolarTools = "E:\\IntelliJ\\CaseStudy.Module2\\Database\\lunisolarTools.dat";
-    static final String pathFileTaoist = "E:\\IntelliJ\\CaseStudy.Module2\\Database\\taoist.dat";
+    static final String pathFileLunisolarTools = "E:\\IntelliJ\\CaseStudy.Module2\\database\\lunisolarTools.dat";
+    static final String pathFileTaoist = "E:\\IntelliJ\\CaseStudy.Module2\\database\\taoist.dat";
     static FileWriteRead fileWriteRead = FileWriteRead.getInstance();
     static List<LunisolarTools> lunisolarToolsList = (List<LunisolarTools>) fileWriteRead.readFile(pathFileLunisolarTools);
     static List<Taoist> taoistList = (List<Taoist>) fileWriteRead.readFile(pathFileTaoist);
@@ -125,10 +125,11 @@ public class RunByMaster {
                     System.out.println("Đạo sĩ cần tìm là : " + elementTaoist.toString());
 
                     System.out.println("Mời nhập Đạo cụ cần tương tác: ");
-                    LunisolarTools elementTools = new LunisolarToolsManager().search(fileWriteRead.readFile(pathFileLunisolarTools), name);
+                    String nameTools = scanner1.nextLine();
+                    LunisolarTools elementTools = new LunisolarToolsManager().search(fileWriteRead.readFile(pathFileLunisolarTools), nameTools);
                     System.out.println("Đạo cụ cần tìm là: " + elementTools.toString());
 
-                    System.out.println(" Đạo sĩ: " + elementTaoist.getName() + " Được tăng các thuộc tính là: " + elementTools.toString());
+                    System.out.println(" Đạo sĩ: " + name + " Được tăng Sức mạnh linh hồn khi kết hợp với " + nameTools + " là: " + elementTools.getSoulPower());
                     System.out.println("Mời nhập lựa chọn");
                     break;
                 case 6:
