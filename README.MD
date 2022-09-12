@@ -12,4 +12,4 @@
   * Tìm kiếm Đạo cụ, đạo sĩ(Taoist)
   * Tính sát thương tâm linh của đạo cụ và đạo sĩ đã lựa chọn
   * Xếp loại sức mạnh khu tà diệt quỷ của các đạo cụ
-  * Chương trình còn một số chức năng như đăng nhập, đăng ký, phân quyền đạo sĩ, và chút nghiệp vụ quản lý đạo sĩ.
+  * Chương trình còn một số chức năng như đăng nhập, đăng ký, phân quyền đạo sĩ, và nghiệp vụ quản lý đạo sĩ.
